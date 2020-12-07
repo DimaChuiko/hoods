@@ -22,6 +22,14 @@ h2 {
   font: 900 5rem "Roboto";
   color: #404040; }
 
+h3 {
+  font: 500 3rem "Roboto";
+  color: #404040; }
+
+p {
+  font: normal 1.8rem "Roboto";
+  color: #404040; }
+
 a {
   display: inline-block;
   text-decoration: none; }
@@ -81,6 +89,7 @@ li {
   display: flex; }
 
 .news .article {
+  width: 33.33%;
   height: 400px;
   -webkit-box-shadow: 15px 3px 20px rgba(187, 187, 187, 0.85);
   box-shadow: 15px 3px 20px rgba(187, 187, 187, 0.85);
@@ -93,8 +102,16 @@ li {
 .news .article {
   width: 50%; }
 
-.row #music {
-  background-size: cover; }
+.article .blockTextPost {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  text-align: right;
+  right: 0;
+  bottom: 0;
+  background-color: #1dc4c4b8;
+  border-radius: 2%;
+  padding: 10px; }
 
 .row img {
   width: 100%;
