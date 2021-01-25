@@ -51,9 +51,11 @@ li {
   margin: 15px;
   list-style: none; }
 
+/*----------------------------- global ---------------------------*/
 /*----------------------------- header ---------------------------*/
-.header {
-  padding: 30px; }
+.wrapper .header {
+  padding: 50px 0;
+  background: url("../img/777.jpg") center bottom; }
 
 .flex1 {
   display: -webkit-box;
